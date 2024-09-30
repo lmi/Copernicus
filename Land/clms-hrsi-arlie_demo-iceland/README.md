@@ -5,6 +5,13 @@
 
 This repository contains a demo notebook that has been slightly adjusted from the original notebook created by the [European Environment Agency (EEA)](https://github.com/eea). The use case demonstrates how to analyze data from the Aggregated River and Lake Ice Extent (ARLIE) product, which is part of the **High-Resolution Snow and Ice (HR-S&I)** monitoring suite offered by the Copernicus Land Monitoring Service (CLMS). This data allows for an in-depth analysis of ice conditions on rivers and lakes in Europe.
 
+
+<div style="display: flex; align-items: center;">
+    <img src="https://www.copernicus.eu/sites/default/files/styles/image_img_fluid/public/images/media/low/295955-Copernicus_logo_node_full_image_2.jpg?itok=rxBru8V4" alt="Copernicus Logo" style="width: 150px; height: 80px; margin-right: 20px;"/>
+    <img src="https://www.eea.europa.eu/en/newsroom/branding-materials/eea_logo_compact_en.png/@@images/image/preview" alt="EEA Logo" style="width: 200px; height: 80px"/>
+</div>
+
+
 ## About ARLIE
 
 ARLIE, which stands for **Aggregated River and Lake Ice Extent**, provides a comprehensive spatial overview of ice conditions in European rivers and lakes. This dataset integrates data from the **Sentinel-2** and **Sentinel-1** satellite constellations, offering valuable insights into not just ice cover, but also water presence, clouds, vegetation, and bare soil.
@@ -13,10 +20,6 @@ The ARLIE data describes surface coverage for rivers and lakes based on 10 km ri
 
 For more detailed information about ARLIE, refer to the [Copernicus homepage](https://land.copernicus.eu/), the [Product User Manual](https://land.copernicus.eu/user-corner/technical-library/hrsi-pum), and the [Technical Note](https://land.copernicus.eu/user-corner/technical-library/hrsi-tn) for the HR-S&I products.
 
-<div style="display: flex; align-items: center;">
-    <img src="https://www.copernicus.eu/sites/default/files/styles/image_img_fluid/public/images/media/low/295955-Copernicus_logo_node_full_image_2.jpg?itok=rxBru8V4" alt="Copernicus Logo" style="width: 150px; height: 80px; margin-right: 20px;"/>
-    <img src="https://www.eea.europa.eu/en/newsroom/branding-materials/eea_logo_compact_en.png/@@images/image/preview" alt="EEA Logo" style="width: 200px; height: 80px"/>
-</div>
 
 
 ***
