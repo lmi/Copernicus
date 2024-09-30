@@ -56,17 +56,17 @@ This workshop series is designed to be beginner-friendly, with a focus on practi
 
 ### Description
 
-In this session, we will use pre-adjusted scripts derived from the **EEA Land Monitoring Repository**, with additional functionality that we’ve added to enhance the workflows. Participants will learn to analyze land cover data, work with NDVI, and assess changes using various Copernicus datasets.
+In this session, we will use pre-adjusted scripts derived from the **EEA Land Monitoring Repository**, with additional functionality that we’ve added to enhance the workflows. Participants will learn to about ARLINE data, snow and ice monitoring, and assess data using various Copernicus Land Monitoring datasets.
 
 ### Structure
 
-- `scripts/land_monitoring.ipynb`: Main notebook for the hands-on session.
+- `land/land_monitoring.ipynb`: Main notebook for the hands-on session.
 - `data/`: Contains example datasets for land cover analysis.
 - `docs/`: Contains additional reading and references.
 
 ### How to Run the Notebook
 
-1. Open `scripts/land_monitoring.ipynb` in Jupyter Notebook.
+1. Open `land/land_monitoring.ipynb` in Jupyter Notebook.
 2. Follow the instructions within the notebook to explore the land monitoring workflows.
 
 ---
