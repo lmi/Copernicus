@@ -64,8 +64,8 @@ This use case is designed to be run on the **WEkEO** platform. Follow the steps 
 2. **Clone the Repository**:
    Inside your WEkEO JupyterLab terminal, clone the repository:
     ```bash
-    git clone https://lmi/Copernicus/Land/clms-hrsi-arlie-use-case-demo.git
-    cd yourfolder/clms-hrsi-arlie-use-case-demo/
+    git clone https://lmi/Copernicus/Land/clms-hrsi-arlie-use-case_demo-iceland.git
+    cd yourfolder/clms-hrsi-arlie-use-case_demo-iceland/
     ```
 
 3. **Open and Run the Notebook**:
