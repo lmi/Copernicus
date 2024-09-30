@@ -13,8 +13,8 @@ The ARLIE data describes surface coverage for rivers and lakes based on 10 km ri
 
 For more detailed information about ARLIE, refer to the [Copernicus homepage](https://land.copernicus.eu/), the [Product User Manual](https://land.copernicus.eu/user-corner/technical-library/hrsi-pum), and the [Technical Note](https://land.copernicus.eu/user-corner/technical-library/hrsi-tn) for the HR-S&I products.
 
-![Copernicus Logo](https://upload.wikimedia.org/wikipedia/commons/7/7a/Copernicus_Logo.png)
-![EEA Logo](https://upload.wikimedia.org/wikipedia/commons/6/60/European_Environment_Agency_logo.svg)
+![Copernicus Logo](https://www.copernicus.eu/sites/default/files/styles/image_img_fluid/public/images/media/low/295955-Copernicus_logo_node_full_image_2.jpg?itok=rxBru8V4)
+![EEA Logo](https://www.eea.europa.eu/en)
 
 ***
 
