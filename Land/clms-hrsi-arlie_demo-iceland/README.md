@@ -21,7 +21,9 @@ For more detailed information about ARLIE, refer to the [Copernicus homepage](ht
 
 ***
 
-## Demo Notebook: Unexpected Melting of Lake Öskjuvatn
+## Demo Notebook: 
+1. How to get started (how-to-get-started.ipynb)
+2. Unexpected Melting of Lake Öskjuvatn (askja-use-case.ipynb)
 
 This demo notebook focuses on an analysis of an unexpected melting event at **Lake Öskjuvatn** in Iceland using ARLIE data. The lake, which typically stays frozen until June or July, experienced early melting in **February 2023**. 
 
@@ -63,8 +65,8 @@ This use case is designed to be run on the **WEkEO** platform. Follow the steps 
 2. **Clone the Repository**:
    Inside your WEkEO JupyterLab terminal, clone the repository:
     ```bash
-    git clone https://lmi/Copernicus/Land/clms-hrsi-arlie-use-case_demo-iceland.git
-    cd yourfolder/clms-hrsi-arlie-use-case_demo-iceland/
+    git clone https://lmi/Copernicus/Land/clms-hrsi-arlie_demo-iceland.git
+    cd yourfolder/clms-hrsi-arlie_demo-iceland/
     ```
 
 3. **Open and Run the Notebook**:
