@@ -16,6 +16,12 @@ For more detailed information about ARLIE, refer to the [Copernicus homepage](ht
 ![Copernicus Logo](https://www.copernicus.eu/sites/default/files/styles/image_img_fluid/public/images/media/low/295955-Copernicus_logo_node_full_image_2.jpg?itok=rxBru8V4)
 ![EEA Logo](https://www.eea.europa.eu/en/newsroom/branding-materials/eea_logo_compact_en.png/@@images/image/preview)
 
+<div style="display: flex; align-items: center;">
+    <img src="https://www.copernicus.eu/sites/default/files/styles/image_img_fluid/public/images/media/low/295955-Copernicus_logo_node_full_image_2.jpg?itok=rxBru8V4" alt="Copernicus Logo" style="width: 150px; margin-right: 20px;"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/European_Environment_Agency_logo.svg" alt="EEA Logo" style="width: 150px;"/>
+</div>
+
+
 ***
 
 ## Demo Notebook: Unexpected Melting of Lake Öskjuvatn
