@@ -26,7 +26,7 @@ For more detailed information about ARLIE, refer to the [Copernicus homepage](ht
 This demo notebook focuses on an analysis of an unexpected melting event at **Lake Öskjuvatn** in Iceland using ARLIE data. The lake, which typically stays frozen until June or July, experienced early melting in **February 2023**. 
 
 ### Original Notebook Source:
-This notebook was forked from the EEA repository, and the original can be found here: [EEA CLMS HR-S&I ARLIE Use Case](https://github.com/eea/clms-hrsi-arlie-use-case).
+This notebook was forked from the EEA repository, and the original can be found here: [EEA CLMS HR-SI ARLIE Use Case](https://github.com/eea/clms-hrsi-arlie-use-case).
 
 ### Adjustments:
 We have made some slight adjustments to the original notebook to tailor it for this specific use case. This includes:
@@ -37,7 +37,9 @@ We have made some slight adjustments to the original notebook to tailor it for t
 ### Steps Covered in the Notebook:
 1. **Retrieve and Organize ARLIE Data**: How to use ARLIE's REST API to retrieve data for Lake Öskjuvatn.
 2. **Sanity Check Data**: Filter out noisy observations and clean the dataset.
-3. **Analyze Ice Cover Trends**: Perform a time-series analysis to identify patterns in ice coverage from 2017–2023.
+3. **Analyze Ice Cover Trends**: Perform a time-series analysis to identify patterns in ice coverage from 2017–2024.
+3. **Vizualize**: 
+
 
 ***
 
