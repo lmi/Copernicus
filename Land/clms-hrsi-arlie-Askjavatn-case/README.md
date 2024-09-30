@@ -51,33 +51,71 @@ To run the notebook, you can either use Jupyter Notebooks locally or take advant
 - Basic Python knowledge is useful but not required.
 - An internet connection to access the ARLIE API.
 
-### Installation
+### Running the Use Case on WEkEO
 
-1. Clone this repository:
+This use case is designed to be run on the **WEkEO** platform. Follow the steps below to set up and execute the Jupyter Notebook on WEkEO.
+
+1. **Log in to WEkEO JupyterLab**:
+   - Sign in to your WEkEO account and navigate to the **JupyterLab** environment.
+   - Ensure you have the required access to the dataset and compute resources.
+
+2. **Clone the Repository**:
+   Inside your WEkEO JupyterLab terminal, clone the repository:
     ```bash
-    git clone https://github.com/yourusername/copernicus-workshops.git
-    cd copernicus-workshops/CLMS
+    git clone https://lmi/Copernicus/Land/clms-hrsi-arlie-use-case-demo.git
+    cd yourfolder/clms-hrsi-arlie-use-case-demo/
     ```
 
-2. Install required dependencies (listed in `requirements.txt`):
-    ```bash
-    pip install -r requirements.txt
+3. **Open and Run the Notebook**:
+   - Navigate to the `use_case_Oskjuvatn.ipynb` notebook.
+   - Follow the steps in the notebook to execute the use case for analyzing ice cover changes using **ARLIE** data for **Lake Öskjuvatn**, Iceland
+
+4. **Install Required Dependencies, uncomment cells in the notebook** (if necessary):
+   - Open the Jupyter Notebook `use_case_Oskjuvatn.ipynb`.
+   - Some cells may be commented out intentionally. Uncomment them to activate certain pieces of code for execution.
+   
+   Here's an example of what you may see in the notebook:
+
+    ```python
+    # Example commented code:
+    # import rasterio
+    # import matplotlib.pyplot as plt
+    #
+    # with rasterio.open('/path/to/sentinel-2-image.tif') as src:
+    #     band1 = src.read(1)  # Read the first band (e.g., red band)
+    #
+    # plt.imshow(band1, cmap='gray')
+    # plt.title('Sentinel-2 Band 1')
+    # plt.show()
     ```
 
-3. Launch Jupyter Notebook:
-    ```bash
-    jupyter notebook
-    ```
+   **To uncomment**, remove the `#` symbols to enable the code:
 
-4. Open and run `use_case_2_Oskjuvatn.ipynb` to begin the demo.
+    ```python
+    import rasterio
+    import matplotlib.pyplot as plt
+    
+    with rasterio.open('/path/to/sentinel-2-image.tif') as src:
+        band1 = src.read(1)  # Read the first band (e.g., red band)
+    
+    plt.imshow(band1, cmap='gray')
+    plt.title('Sentinel-2 Band 1')
+    plt.show()
+    ```
 
 ---
+
+### Future Local Installation (To Be Added)
+We will later provide instructions on how to run this demo locally or on other platforms like **local Jupyter** installations or alternative cloud environments. Stay tuned for updates!
+
+
+***
 
 ## Legal Notice
 
 Access to Copernicus data is provided under a principle of full, open, and free access as established by the **Copernicus Data and Information Policy** (Regulation (EU) No 1159/2013). More information can be found [here](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1159).
 
----
+***
 
 ## License
 
