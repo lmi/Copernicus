@@ -30,7 +30,6 @@ This notebook was forked from the EEA repository, and the original can be found 
 
 ### Adjustments:
 We have made some slight adjustments to the original notebook to tailor it for this specific use case. This includes:
-- Addition of Icelandic data for Lake Öskjuvatn.
 - Enhanced time series analysis.
 - Additional visualizations for seasonal trends.
 
