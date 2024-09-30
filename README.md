@@ -28,7 +28,7 @@ This workshop series is designed to be beginner-friendly, with a focus on practi
 
 - Basic Python knowledge is useful but not required.
 - A modern web browser and internet connection for accessing Copernicus services.
-- Participants should have [Jupyter Notebook](https://jupyter.org/install) installed.
+- Participants should have [Jupyter Notebook](https://jupyter.org/install) installed or use online platform (e.g. WEkEO, Kaggle, Google Colab or Copernicus )
 
 ### Installation
 
@@ -60,14 +60,14 @@ In this session, we will use pre-adjusted scripts derived from the **EEA Land Mo
 
 ### Structure
 
-- `land/land_monitoring.ipynb`: Main notebook for the hands-on session.
-- `data/`: Contains example datasets for land cover analysis.
-- `docs/`: Contains additional reading and references.
+- `land/`: Contains notebook for the hands-on session for Copernicus Land monitroing service.
+- `marine/`: Contains notebook for the hands-on session for Copernicus Marine monitroing service.
+- `atmosphere/`: Contains notebook for the hands-on session for Copernicus Atmosphere monitroing service.
 
 ### How to Run the Notebook
 
-1. Open `land/land_monitoring.ipynb` in Jupyter Notebook.
-2. Follow the instructions within the notebook to explore the land monitoring workflows.
+1.
+2. 
 
 ---
 
