@@ -22,6 +22,33 @@ This workshop series is designed to be beginner-friendly, with a focus on practi
 
 ---
 
+## Workshop: Land Monitoring Service
+
+### Description
+
+In this session, we will use pre-adjusted scripts derived from the **EEA Land Monitoring Repository**, with additional functionality that we’ve added to enhance the workflows. Participants will learn to about ARLINE data, snow and ice monitoring, and assess data using various Copernicus Land Monitoring datasets.
+
+### Structure
+
+- `land/`: Contains notebooks for the hands-on session for Copernicus Land monitroing service.
+- `/clms-hrsi-arlie_demo-iceland/`: Contains examples and exercisse of how to download and process ARLIE data.
+- `/land_use/`: Contains notebooks for download and processing data from WEkEO such is Urban Atlas and Corine lulc in the near future.
+
+## Workshop: Atmosphere Monitoring Service
+
+### Description
+
+In this session, we will use pre-adjusted scripts derived from the ****, with additional functionality that we’ve added to enhance the workflows. Participants will learn to about ....
+
+### Structure
+
+- `cams`: Contains notebook for the hands-on session for Copernicus Atmosphere monitroing service.
+- `../`: 
+- `../`: 
+
+
+---
+
 ## Getting Started
 
 ### Prerequisites
@@ -51,34 +78,6 @@ This workshop series is designed to be beginner-friendly, with a focus on practi
 4. Navigate to the relevant hands-on session folder (e.g., `LAND`) to start exploring the scripts.
 
 ---
-
-## Workshop: Land Monitoring Service
-
-### Description
-
-In this session, we will use pre-adjusted scripts derived from the **EEA Land Monitoring Repository**, with additional functionality that we’ve added to enhance the workflows. Participants will learn to about ARLINE data, snow and ice monitoring, and assess data using various Copernicus Land Monitoring datasets.
-
-### Structure
-
-- `land/`: Contains notebooks for the hands-on session for Copernicus Land monitroing service.
-- `/clms-hrsi-arlie_demo-iceland/`: Contains examples and exercisse of how to download and process ARLIE data.
-- `/land_use/`: Contains notebooks for download and processing data from WEkEO such is Urban Atlas and Corine lulc in the near future.
-
-## Workshop: Atmosphere Monitoring Service
-
-### Description
-
-In this session, we will use pre-adjusted scripts derived from the ****, with additional functionality that we’ve added to enhance the workflows. Participants will learn to about ....
-
-### Structure
-
-- `cams`: Contains notebook for the hands-on session for Copernicus Atmosphere monitroing service.
-- `../`: 
-- `../`: 
-
-
----
-
 ## License
 
 This repository is licensed under the [MIT License](LICENSE).
