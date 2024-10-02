@@ -60,14 +60,23 @@ In this session, we will use pre-adjusted scripts derived from the **EEA Land Mo
 
 ### Structure
 
-- `land/`: Contains notebook for the hands-on session for Copernicus Land monitroing service.
+- `land/`: Contains notebooks for the hands-on session for Copernicus Land monitroing service.
+- `/clms-hrsi-arlie_demo-iceland/`: Contains examples and exercisse of how to download and process ARLIE data.
+- `/land_use/`: Contains notebooks for download and processing data from WEkEO such is Urban Atlas and Corine lulc in the near future.
+
+## Workshop: Atmosphere Monitoring Service
+
+### Description
+
+In this session, we will use pre-adjusted scripts derived from the **EEA Land Monitoring Repository**, with additional functionality that we’ve added to enhance the workflows. Participants will learn to about ARLINE data, snow and ice monitoring, and assess data using various Copernicus Land Monitoring datasets.
+
+### Structure
+
+- `..`: Contains notebook for the hands-on session for Copernicus Land monitroing service.
 - `marine/`: Contains notebook for the hands-on session for Copernicus Marine monitroing service.
-- `atmosphere/`: Contains notebook for the hands-on session for Copernicus Atmosphere monitroing service.
+- `Land_use/`: Contains notebook for the hands-on session for Copernicus Atmosphere monitroing service.
 
 ### How to Run the Notebook
-
-1.
-2. 
 
 ---
 
