@@ -68,21 +68,14 @@ In this session, we will use pre-adjusted scripts derived from the **EEA Land Mo
 
 ### Description
 
-In this session, we will use pre-adjusted scripts derived from the **EEA Land Monitoring Repository**, with additional functionality that we’ve added to enhance the workflows. Participants will learn to about ARLINE data, snow and ice monitoring, and assess data using various Copernicus Land Monitoring datasets.
+In this session, we will use pre-adjusted scripts derived from the ****, with additional functionality that we’ve added to enhance the workflows. Participants will learn to about ....
 
 ### Structure
 
-- `..`: Contains notebook for the hands-on session for Copernicus Land monitroing service.
-- `marine/`: Contains notebook for the hands-on session for Copernicus Marine monitroing service.
-- `Land_use/`: Contains notebook for the hands-on session for Copernicus Atmosphere monitroing service.
+- `cams`: Contains notebook for the hands-on session for Copernicus Atmosphere monitroing service.
+- `../`: 
+- `../`: 
 
-### How to Run the Notebook
-
----
-
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for more details on how to help improve this repository.
 
 ---
 
