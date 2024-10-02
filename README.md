@@ -34,8 +34,8 @@ This workshop series is designed to be beginner-friendly, with a focus on practi
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/copernicus-workshops.git
-    cd copernicus-workshops
+    git clone https://github.com/lmi/copernicus.git
+    cd copernicus
     ```
 
 2. Install required dependencies (if any):
