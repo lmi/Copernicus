@@ -12,11 +12,11 @@ This workshop series is designed to be beginner-friendly, with a focus on practi
    - Morning: Overview of Copernicus Land Monitoring Services and user cases 
    - Afternoon: Hands-on session using adjusted scripts from the EEA repository to explore land monitoring datasets and workflows.
    
-2. **Marine Monitoring Service** (to be added)
+2. **Marine Monitoring Service** 
    - Morning: Overview of Copernicus Marine Monitoring Services
    - Afternoon: Hands-on session exploring marine datasets.
 
-3. **Atmosphere Monitoring Service** (to be added)
+3. **Atmosphere Monitoring Service** 
    - Morning: Overview of Copernicus Atmosphere Monitoring Services
    - Afternoon: Hands-on session exploring atmospheric datasets and tools for air quality assessment.
 
@@ -30,9 +30,24 @@ In this session, we will use pre-adjusted scripts derived from the **EEA Land Mo
 
 ### Structure
 
-- `land/`: Contains notebooks for the hands-on session for Copernicus Land monitroing service.
+- `Land/`: Contains notebooks for the hands-on session for Copernicus Land monitroing service.
 - `/clms-hrsi-arlie_demo-iceland/`: Contains examples and exercisse of how to download and process ARLIE data.
 - `/land_use/`: Contains notebooks for download and processing data from WEkEO such is Urban Atlas and Corine lulc in the near future.
+
+## Workshop: Marine Monitoring Service
+
+### Description
+
+In this session, we will use pre-adjusted scripts derived from the **Mercator Ocean International - Copernicus Marine**, with additional functionality that we’ve added to enhance the workflows. Participants will learn to about biogeochemical data, marine heat wave, and assess data using various Copernicus Marine Monitoring datasets.
+
+### Structure
+
+- `Marine/`: Contains the folders for the hands-on session for Copernicus Marine monitroing service.
+- `/Biogeochemical/`: Contains the biogeochemical notebooks for the hands-on session for Copernicus Marine monitroing service.
+   - `/out/`: Contains the output from the notebook results.
+- `/Marine_Heat_Wave/`: Contains the marine heat wave notebooks for the hands-on session for Copernicus Marine monitroing service.
+   - `/out/`: Contains the output from the notebook results.
+   - `/img/`: Contains images to fully display the notebook.
 
 ## Workshop: Atmosphere Monitoring Service
 
@@ -42,9 +57,9 @@ In this session, we will use pre-adjusted scripts derived from the ****, with ad
 
 ### Structure
 
-- `cams`: Contains notebook for the hands-on session for Copernicus Atmosphere monitroing service.
-- `../`: 
-- `../`: 
+- `Atmosphere/`: Contains notebook for the hands-on session for Copernicus Atmosphere monitroing service.
+   - `/img/`: Contains images to fully display the notebook.
+
 
 
 ---
