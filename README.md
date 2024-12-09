@@ -2,6 +2,10 @@
 
 This repository contains code, scripts, and resources for hands-on sessions covering **Land**, **Marine**, and **Atmosphere** monitoring using data and services from Copernicus.
 
+# Copernicus Monitoring Service Workshop Series
+
+This repository contains code, scripts, and resources for hands-on sessions covering **Land**, **Marine**, and **Atmosphere** monitoring using data and services from Copernicus.
+
 ## Overview
 
 This workshop series is designed to be beginner-friendly, with a focus on practical applications of Copernicus data. Each session includes morning presentations followed by afternoon coding and demo sessions. Participants will get hands-on experience using pre-prepared scripts and notebooks, which they can adapt for their own needs.
