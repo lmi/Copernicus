@@ -19,19 +19,19 @@ The script logs in using credentials stored in `login.json` and queries Copernic
 
 ---
 
-### Useful Reading Material
+### Gagnlegt lesefni
 - **Copernicus Marine Toolbox**: [Toolbox Installation](https://help.marine.copernicus.eu/en/articles/7970514-copernicus-marine-toolbox-installation)
 - **Visualize Copernicus Marine Data in Python**: [Data Marine Visualization](https://help.marine.copernicus.eu/en/articles/4854800-how-to-open-and-visualize-copernicus-marine-data-using-python)
 
 ---
 
-### Attribution
-- **License**: This notebook is published under **CC BY 4.0**.
-- **Citation**: "*Credits: Náttúrufræðistofnun*"
-- **Author**: Marco Pizzolato
-- **Data Sources**: [Copernicus Marine Service](https://marine.copernicus.eu/)
-- **Created in**: Python with `requests`, `json`, and `pandas` for data extraction and formatting.
+### Heimildir
+- **Leyfi**: Þessi vinnubók er getin út undir **CC BY 4.0** leyfi.
+- **Tilvitnun**: "*Höfundaréttur: Náttúrufræðistofnun*"
+- **Höfundur**: Marco Pizzolato
+- **Gagnaveitur**: [Copernicus Marine Service](https://marine.copernicus.eu/)
+- **Unnið í**: Python með `requests`, `json`, og `pandas` fyrir gagnaöflun og úrvinnslu.
 
 ---
 
-**This notebook provides an automated way to explore and document Copernicus Marine datasets, making ocean data more accessible.**
+**Í þessari vinnubók er hægt að rannsaka  öll gagnasett Copernicusar um hafið á sjálvirkan hátt. Þetta gerir það að verkum að hafgögn eru enn sem gerir gögn um hafið aðgengilegri en áður.**
