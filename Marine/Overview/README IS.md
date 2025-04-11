@@ -5,23 +5,23 @@
 ---
 
 ### Yfirlit
-This notebook connects to **Copernicus Marine Service** to retrieve and list all available datasets.
-Using Python, it fetches dataset descriptions automatically and generates markdown documentation.
+Þessi vinnubók tengist **Hafvöktunarþjónustu Copernicusar** þar sem hægt er að birta og sækja öll tiltæk gagnasett.
+Hún notar Python til að sækja sjálfvirkt lýsingar um gangasettin og búa til markdown skjöl.
 
-The script logs in using credentials stored in `login.json` and queries Copernicus Marine API for metadata.
+Skriftan skráir sig inn með auðkenni sem er geymt í `login.json` og sækir lýsigögn í gegnum Copernicus Marine API.
 
 ### Leiðbeiningar
-1. Open this notebook in Google Colab or another cloud platform.
-2. Ensure you have the correct `login.json` file with valid credentials.
-3. Run the provided code cells to explore dataset descriptions and available services.
+1. Opnaðu vinnubókina í Google Colab eða annarri skýjaþjónustu.
+2. Gakktu úr skugga um að þú sért með rétta `login.json` skrá með gildum aðgangsupplýsingum.
+3. Keyrðu meðfylgjandi kóða til þess að lýsingar á tiltækum þjónustum.
 
-| Try the code via free cloud platforms: | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lmi/Copernicus/blob/master/Marine/Overview/ConnectMarine.ipynb)
+| Prófaðu kóðann í ókeypis skýjaþjónustum: | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lmi/Copernicus/blob/master/Marine/Overview/ConnectMarine.ipynb)
 
 ---
 
 ### Gagnlegt lesefni
-- **Copernicus Marine Toolbox**: [Toolbox Installation](https://help.marine.copernicus.eu/en/articles/7970514-copernicus-marine-toolbox-installation)
-- **Visualize Copernicus Marine Data in Python**: [Data Marine Visualization](https://help.marine.copernicus.eu/en/articles/4854800-how-to-open-and-visualize-copernicus-marine-data-using-python)
+- **Verkfærakista Copernicus Haf**: [Uppsetning verkfærakistunnar](https://help.marine.copernicus.eu/en/articles/7970514-copernicus-marine-toolbox-installation)
+- **Sjónræn framsetning ganga með hjálp Python**: [Data Marine Visualization](https://help.marine.copernicus.eu/en/articles/4854800-how-to-open-and-visualize-copernicus-marine-data-using-python)
 
 ---
 
@@ -30,7 +30,7 @@ The script logs in using credentials stored in `login.json` and queries Copernic
 - **Tilvitnun**: "*Höfundaréttur: Náttúrufræðistofnun*"
 - **Höfundur**: Marco Pizzolato
 - **Gagnaveitur**: [Copernicus Marine Service](https://marine.copernicus.eu/)
-- **Unnið í**: Python með `requests`, `json`, og `pandas` fyrir gagnaöflun og úrvinnslu.
+- **Unnið í**: Python með `requests` , `json` , og `pandas` fyrir gagnaöflun og úrvinnslu.
 
 ---
 
