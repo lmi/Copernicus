@@ -26,7 +26,7 @@ Vinnustofurnar eru hannaðar með byrjendur í huga þar sem áhersla var lögð
 
 ### Lýsing
 
-Í þessari vinnustofu munum við notast sérsniðnar skriftur byggðar á skriftum frá **EEA Land Monitoring Repository** sem hafa verið aðlagaðar að okkar þörfum. Auk þess var bætt við eiginleikum til að bæta verkferlið. Þátttakendur munu læra um ARLIE gögn sem og gögn sem ætluð eru til að vakta snjó- og ísþekjur. Þau munu einniglæra að greina gögn með ólíkum gagnasettum frá landvöktunarþjónustu Copernicusar.
+Í þessari vinnustofu munum við notast sérsniðnar skriftur byggðar á skriftum frá **EEA Land Monitoring Repository** sem hafa verið aðlagaðar að okkar þörfum. Auk þess var bætt við eiginleikum til að bæta verkferlið. Þátttakendur munu læra um ARLIE gögn sem og gögn sem ætluð eru til að vakta snjó- og ísþekjur. Þau munu einnig læra að greina gögn með ólíkum gagnasettum frá landvöktunarþjónustu Copernicusar.
 
 ### Uppbygging
 
