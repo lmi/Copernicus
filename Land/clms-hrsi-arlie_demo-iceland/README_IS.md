@@ -124,5 +124,5 @@ Aðgangur að gögnum frá Copernicus er opinn, ókeypis og öllum frjáls samkv
 
 ## Leyfi
 
-TÞessi gagnageymsla og innihald hennar er gefið út undir **MIT License**. See the [LICENSE](LICENSE) fyrir frekari upplýsingar.
+Þessi gagnageymsla og innihald hennar er gefið út undir **MIT License**. sjá [LEYFI](LICENSE) fyrir frekari upplýsingar.
 
