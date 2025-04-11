@@ -55,7 +55,7 @@ Vinnustofurnar eru hannaðar með byrjendur í huga þar sem áhersla var lögð
 
 Í þessari vinnustofu notum við sérsniðnar skriftur byggðar á gögnum frá ****, asem hafa verið aðlagaðar að okkar þörfum. Auk þess var bætt við eiginleikum til að bæta verkferlið. Þátttakendur munu læra ....
 
-### Structure
+### Uppbygging
 
 - `Atmosphere/`: Inniheldur vinnubók fyrir verklega hlutann í vinnustofunni um loftgæðavöktun Copernicusar.
    - `/img/`: Inniheldur myndir sem styðja við vinnubókina
@@ -95,5 +95,5 @@ Vinnustofurnar eru hannaðar með byrjendur í huga þar sem áhersla var lögð
 ---
 ## Leyfi
 
-Þessi gagnageymsa er gefinu út undir [MIT License](LICENSE).
+Þessi gagnageymsla er gefinu út undir [MIT License](LICENSE).
 

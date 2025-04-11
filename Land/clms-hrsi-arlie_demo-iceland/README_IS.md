@@ -51,36 +51,35 @@ Við höfum gert gert minniháttar breytingar á vinnubókinn til að aðlaga up
 
 Til þess að keyra vinnubókin getur þú annaðhvort notað Jupyter Notebooks á tölvunni þinni eða nýtt þér einn af fjölmörgum þjónustum á netinu eins og [WEkEO](https://www.wekeo.eu/), sem sérhæfir sig í að vinna með kóða og þjónustur frá Copernicus.
 
-### Möguleikar
+### Forsendur
 
-- **Jupyter Notebook** sett upp í tölvunni þinni eða notaðuinstalled locally or access to an online platform (e.g., WEkEO).
-- Basic Python knowledge is useful but not required.
-- An internet connection to access the ARLIE API.
+- **Jupyter Notebook** settu upp í tölvunni þinni eða notaðu einn af fjölmörgum þjónustum á netinu (t.d., WEkEO).
+- BGrunnþekking í Python er gagnleg en ekki.
+- Nettenging til að fá aðgang að ARLIE API.
 
-### Running the Use Case on WEkEO
+### Keyrsla kynningardæmisins í WEkEO
 
-This use case is designed to be run on the **WEkEO** platform. Follow the steps below to set up and execute the Jupyter Notebook on WEkEO.
+Kynningardæmið er hannað til þess að vera keyrt í **WEkEO** þjónustunni. Fylgdu skrefunum hér á eftir til þess að setja upp Jupyter vinnubókina á WEkEO.
 
-1. **Log in to WEkEO JupyterLab**:
-   - Sign in to your WEkEO account and navigate to the **JupyterLab** environment.
-   - Ensure you have the required access to the dataset and compute resources.
+1. **Skráðu þig inn á WEkEO JupyterLab**:
+   - Skráðu þig inn á WEkEO aðganginn þinn og finndu **JupyterLab** umhverfið.
+   - Gakktu úr skugga um að þú hafir viðeigandi aðgang að gagnasettinu til úrvinnslu.
 
-2. **Clone the Repository**:
-   Inside your WEkEO JupyterLab terminal, clone the repository:
+2. **Taktu afrit af gagnageymslunni (e. repository)**:
+   Inni í WEkEO JupyterLab terminal, skaltu taka afrit af gagnageymslunni:
     ```bash
     git clone https://lmi/Copernicus/Land/clms-hrsi-arlie_demo-iceland.git
     cd yourfolder/clms-hrsi-arlie_demo-iceland/
     ```
 
-3. **Open and Run the Notebook**:
-   - Navigate to the `use_case_Oskjuvatn.ipynb` notebook.
-   - Follow the steps in the notebook to execute the use case for analyzing ice cover changes using **ARLIE** data for **Lake Öskjuvatn**, Iceland
-
-4. **Install Required Dependencies, uncomment cells in the notebook** (if necessary):
-   - Open the Jupyter Notebook `use_case_Oskjuvatn.ipynb`.
-   - Some cells may be commented out intentionally. Uncomment them to activate certain pieces of code for execution.
+3. **Opnaðu og keyrðu vinnubókina**:
+   - Farðu í `use_case_Oskjuvatn.ipynb` vinnubókina.
+   - Fylgdu skrefunum í vinnubókinni til þess að byrja að gera greiningar á þeim breytingum sem hafa orðið á ísþekjunni **Öskjuvatni** á Íslandi og notaðu **ARLIE** gögnin.
+4. **Settu upp þá pakka sem þarf og taktu út línur sem hafa verið settar sem "athugasemdir"** (ef þörf er á):
+   - Opnaðu Jupyter vinnubókina `use_case_Oskjuvatn.ipynb`.
+   - Sumar línur hafa viljani verið teknar út sem athugasemd. Þú þarft að laga þessar línur til þess að virkja hluta af kóðanum svo hægt sé að keyra hann.
    
-   Here's an example of what you may see in the notebook:
+   Hér er dæmi um hvað þú sérð í vinnubókinni:
 
     ```python
     # Example commented code:
@@ -95,7 +94,7 @@ This use case is designed to be run on the **WEkEO** platform. Follow the steps 
     # plt.show()
     ```
 
-   **To uncomment**, remove the `#` symbols to enable the code:
+   **Til þess að taka út athugasemd**, fjarlægðu `#` táknið til þess að virkja kóðann:
 
     ```python
     import rasterio
@@ -111,19 +110,19 @@ This use case is designed to be run on the **WEkEO** platform. Follow the steps 
 
 ---
 
-### Future Local Installation (To Be Added)
-We will later provide instructions on how to run this demo locally or on other platforms like **local Jupyter** installations or alternative cloud environments. Stay tuned for updates!
+### Leiðbeiningar fyrir staðbundna uppsetningu (verður bætt við seinna)
+Við munum bæta við leiðbeininugum í náinni framtíð um hvernig hægt er að keyra þessa kynningar vinnubók á staðbundið eða í annarri þjónustu eins og í **local Jupyter** uppsetningu eða á öðrum skýjavettvangi. Fylgist með!
 
 
 ***
 
-## Legal Notice
+## Lagayfirlýsing
 
-Access to Copernicus data is provided under a principle of full, open, and free access as established by the **Copernicus Data and Information Policy** (Regulation (EU) No 1159/2013). More information can be found [here](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1159).
+Aðgangur að gögnum frá Copernicus er opinn, ókeypis og öllum frjáls samkvæmt **Gagna- og upplýsingastefnu Copernicusar** (Regulation (EU) No 1159/2013).Hægt er að sinna frekar upplýsingar [hér](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1159).
 
 ***
 
-## License
+## Leyfi
 
-This repository and its contents are licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+TÞessi gagnageymsla og innihald hennar er gefið út undir **MIT License**. See the [LICENSE](LICENSE) fyrir frekari upplýsingar.
 
