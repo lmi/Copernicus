@@ -1,9 +1,9 @@
 
-# Copernicus Land Monitoring Service (CLMS) - ARLIE Use Case
+# Landvöktunarþjónusta Copernicusar (CLMS) - Dæmi um notkun á ARLIE gögnum
 
-## Overview
+## Yfirlit
 
-This repository contains a demo notebook that has been slightly adjusted from the original notebook created by the [European Environment Agency (EEA)](https://github.com/eea). The use case demonstrates how to analyze data from the Aggregated River and Lake Ice Extent (ARLIE) product, which is part of the **High-Resolution Snow and Ice (HR-S&I)** monitoring suite offered by the Copernicus Land Monitoring Service (CLMS). This data allows for an in-depth analysis of ice conditions on rivers and lakes in Europe.
+Í þessari gagnageymslu (e. repository) er að finna kynningar vinnubók (e. notebook) sem byggð er á vinnubók frá [European Environment Agency (EEA)](https://github.com/eea). Vinnubókinni hefur verið breytt lítillega frá upprunalegri útgáfu. Dæmin sem eru notuð sýna hvernig hægt er að greina gögn frá ARLIE eða Aggregated River and Lake Ice Extent gagnasettin. Gögnin eru hluti af vöktunargögnum sem búa til **sjó- og ís gögn í hárri upplausn (HR-S&I)** sem er hluti af landvöktunarþjónusta Copernicusar  (CLMS). ARLIE gögnin gefa möguleikann á því að gera nákvæma greiningu á ástandi íss í ám og vötnum í Evrópu.
 
 
 <div style="display: flex; align-items: center;">
@@ -12,75 +12,74 @@ This repository contains a demo notebook that has been slightly adjusted from th
 </div>
 
 
-## About ARLIE
+## Um ARLIE
 
-ARLIE, which stands for **Aggregated River and Lake Ice Extent**, provides a comprehensive spatial overview of ice conditions in European rivers and lakes. This dataset integrates data from the **Sentinel-2** and **Sentinel-1** satellite constellations, offering valuable insights into not just ice cover, but also water presence, clouds, vegetation, and bare soil.
+ARLIE stendur fyrir **Aggregated River and Lake Ice Extent** eða **Samantekið umfang íss á ám og stöðuvötunum** og veitir yfirgripsmikla yfirsýn yfir skilyrði íss í evrópskum ám og vötunum og hlutfall íssins í rýminu. Gagnasettið byggir á gögnum frá **Sentinel-2** and **Sentinel-1** gervihnöttum og gefur dýrmætar upplýsingar um ísþekju, vatnsyfirborð, skýjahulu, gróður og jarðveg án gróðurþekju.
 
-The ARLIE data describes surface coverage for rivers and lakes based on 10 km river sections and lake boundaries defined by the **EU-Hydro database**. The geodatabase storing ARLIE data uses the **European ETRS89 LAEA** coordinate system (EPSG: 3035) and is updated daily.
+ARLIE gögnin lýsa yfirborði áa og stöðuvatna og er miðað við 10 km langa árkafla eða mörk stöðuvatna sem skilgreind eru af **EU-Hydro database** eða **Vatnaskrá Evrópusambansins**. Landfræðilegi gagnagrunnurinn sem geymir ARLIE gögnin notast við **European ETRS89 LAEA** hnitakerfið (EPSG: 3035) og er uppfærður daglega.
 
-For more detailed information about ARLIE, refer to the [Copernicus homepage](https://land.copernicus.eu/), the [Product User Manual](https://land.copernicus.eu/user-corner/technical-library/hrsi-pum), and the [Technical Note](https://land.copernicus.eu/user-corner/technical-library/hrsi-tn) for the HR-S&I products.
+Frekari upplýsingar um ARLIE er hægt að finna á [heimasíðu Copernicusar](https://land.copernicus.eu/), í [Notendahandbókinni](https://land.copernicus.eu/user-corner/technical-library/hrsi-pum) og í  [Tæknilýsingu](https://land.copernicus.eu/user-corner/technical-library/hrsi-tn) fyrir HR-S&I gögnin.
 
 
 
 ***
 
-## Demo Notebook: 
-1. How to get started (how-to-get-started.ipynb)
-2. Unexpected Melting of Lake Öskjuvatn (askja-use-case.ipynb)
+## Kynningar vinnubók: 
+1. Hvar á að byrja (how-to-get-started.ipynb)
+2. Óvænt bráðnun Öskuvatns (askja-use-case.ipynb)
 
-This demo notebook focuses on an analysis of an unexpected melting event at **Lake Öskjuvatn** in Iceland using ARLIE data. The lake, which typically stays frozen until June or July, experienced early melting in **February 2023**. 
+Kynningar vinnubókin einblínir á greiningar á óvæntri bránun íss á **Öskjuvatni** á Íslandi þar sem notuð eru ARLIE gögn. Stöðuvatnið sem venjulega er frosið þar til í júní eða júlí byrjaði að bráðna mjög snemma í **febrúar 2023**. 
 
-### Original Notebook Source:
-This notebook was forked from the EEA repository, and the original can be found here: [EEA CLMS HR-SI ARLIE Use Case](https://github.com/eea/clms-hrsi-arlie-use-case).
+### Upprunanleg vinnubók:
+Vinnubókin var klofin út frá gagnageymsli EEA og hægt er að sjá upprunanlegu vinnubókin hér: [EEA CLMS HR-SI ARLIE Use Case](https://github.com/eea/clms-hrsi-arlie-use-case).
 
-### Adjustments:
-We have made some slight adjustments to the original notebook to tailor it for this specific use case. This includes:
-- Enhanced time series analysis.
-- Additional visualizations for seasonal trends.
+### Breytingar:
+Við höfum gert gert minniháttar breytingar á vinnubókinn til að aðlaga upprunanlegu vinnubókin að okkar þörfum. Þær breytingar sem gerðar voru eftirfarandi:
+- Bætt tímaröð (e. time-series)
+- AAUkin myndræn framsetning á árstíðabundnum mynstrum.
 
 ### Steps Covered in the Notebook:
-1. **Retrieve and Organize ARLIE Data**: How to use ARLIE's REST API to retrieve data for Lake Öskjuvatn.
-2. **Sanity Check Data**: Filter out noisy observations and clean the dataset.
-3. **Analyze Ice Cover Trends**: Perform a time-series analysis to identify patterns in ice coverage from 2017–2024.
-3. **Vizualize**: 
+1. **Ná í og skipuleggja ARLIE gögnin**: Hvernig á að nota ARLIE's REST API til þess að ná í gögn fyrir Öskjuvatn.
+2. **Raunhæfniprófun gagna**: Hreinsa út ónákvæmar mælingar og truflanir.
+3. **Greining á þróun ísþekjunnar**: Framkvæmdu greiningu á tímaröðinni til þess að sjá mynstur í þróun ísþekjunnar á árunum 2017-202. 
+3. **Myndræn framsetning**: 
 
 
 ***
 
-## Running the Notebook
+## Keyrsla vinnubókarinnar
 
-To run the notebook, you can either use Jupyter Notebooks locally or take advantage of online platforms like [WEkEO](https://www.wekeo.eu/), which is specifically designed to run Copernicus-related code and services.
+Til þess að keyra vinnubókin getur þú annaðhvort notað Jupyter Notebooks á tölvunni þinni eða nýtt þér einn af fjölmörgum þjónustum á netinu eins og [WEkEO](https://www.wekeo.eu/), sem sérhæfir sig í að vinna með kóða og þjónustur frá Copernicus.
 
-### Prerequisites
+### Forsendur
 
-- **Jupyter Notebook** installed locally or access to an online platform (e.g., WEkEO).
-- Basic Python knowledge is useful but not required.
-- An internet connection to access the ARLIE API.
+- **Jupyter Notebook** settu upp í tölvunni þinni eða notaðu einn af fjölmörgum þjónustum á netinu (t.d., WEkEO).
+- BGrunnþekking í Python er gagnleg en ekki.
+- Nettenging til að fá aðgang að ARLIE API.
 
-### Running the Use Case on WEkEO
+### Keyrsla kynningardæmisins í WEkEO
 
-This use case is designed to be run on the **WEkEO** platform. Follow the steps below to set up and execute the Jupyter Notebook on WEkEO.
+Kynningardæmið er hannað til þess að vera keyrt í **WEkEO** þjónustunni. Fylgdu skrefunum hér á eftir til þess að setja upp Jupyter vinnubókina á WEkEO.
 
-1. **Log in to WEkEO JupyterLab**:
-   - Sign in to your WEkEO account and navigate to the **JupyterLab** environment.
-   - Ensure you have the required access to the dataset and compute resources.
+1. **Skráðu þig inn á WEkEO JupyterLab**:
+   - Skráðu þig inn á WEkEO aðganginn þinn og finndu **JupyterLab** umhverfið.
+   - Gakktu úr skugga um að þú hafir viðeigandi aðgang að gagnasettinu til úrvinnslu.
 
-2. **Clone the Repository**:
-   Inside your WEkEO JupyterLab terminal, clone the repository:
+2. **Taktu afrit af gagnageymslunni (e. repository)**:
+   Inni í WEkEO JupyterLab terminal, skaltu taka afrit af gagnageymslunni:
     ```bash
     git clone https://lmi/Copernicus/Land/clms-hrsi-arlie_demo-iceland.git
     cd yourfolder/clms-hrsi-arlie_demo-iceland/
     ```
 
-3. **Open and Run the Notebook**:
-   - Navigate to the `use_case_Oskjuvatn.ipynb` notebook.
-   - Follow the steps in the notebook to execute the use case for analyzing ice cover changes using **ARLIE** data for **Lake Öskjuvatn**, Iceland
-
-4. **Install Required Dependencies, uncomment cells in the notebook** (if necessary):
-   - Open the Jupyter Notebook `use_case_Oskjuvatn.ipynb`.
-   - Some cells may be commented out intentionally. Uncomment them to activate certain pieces of code for execution.
+3. **Opnaðu og keyrðu vinnubókina**:
+   - Farðu í `use_case_Oskjuvatn.ipynb` vinnubókina.
+   - Fylgdu skrefunum í vinnubókinni til þess að byrja að gera greiningar á þeim breytingum sem hafa orðið á ísþekjunni **Öskjuvatni** á Íslandi og notaðu **ARLIE** gögnin.
+4. **Settu upp þá pakka sem þarf og taktu út línur sem hafa verið settar sem "athugasemdir"** (ef þörf er á):
+   - Opnaðu Jupyter vinnubókina `use_case_Oskjuvatn.ipynb`.
+   - Sumar línur hafa viljani verið teknar út sem athugasemd. Þú þarft að laga þessar línur til þess að virkja hluta af kóðanum svo hægt sé að keyra hann.
    
-   Here's an example of what you may see in the notebook:
+   Hér er dæmi um hvað þú sérð í vinnubókinni:
 
     ```python
     # Example commented code:
@@ -95,7 +94,7 @@ This use case is designed to be run on the **WEkEO** platform. Follow the steps 
     # plt.show()
     ```
 
-   **To uncomment**, remove the `#` symbols to enable the code:
+   **Til þess að taka út athugasemd**, fjarlægðu `#` táknið til þess að virkja kóðann:
 
     ```python
     import rasterio
@@ -111,19 +110,19 @@ This use case is designed to be run on the **WEkEO** platform. Follow the steps 
 
 ---
 
-### Future Local Installation (To Be Added)
-We will later provide instructions on how to run this demo locally or on other platforms like **local Jupyter** installations or alternative cloud environments. Stay tuned for updates!
+### Leiðbeiningar fyrir staðbundna uppsetningu (verður bætt við seinna)
+Við munum bæta við leiðbeininugum í náinni framtíð um hvernig hægt er að keyra þessa kynningar vinnubók á staðbundið eða í annarri þjónustu eins og í **local Jupyter** uppsetningu eða á öðrum skýjavettvangi. Fylgist með!
 
 
 ***
 
-## Legal Notice
+## Lagayfirlýsing
 
-Access to Copernicus data is provided under a principle of full, open, and free access as established by the **Copernicus Data and Information Policy** (Regulation (EU) No 1159/2013). More information can be found [here](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1159).
+Aðgangur að gögnum frá Copernicus er opinn, ókeypis og öllum frjáls samkvæmt **Gagna- og upplýsingastefnu Copernicusar** (Regulation (EU) No 1159/2013).Hægt er að sinna frekar upplýsingar [hér](http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1159).
 
 ***
 
-## License
+## Leyfi
 
-This repository and its contents are licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+Þessi gagnageymsla og innihald hennar er gefið út undir **MIT License**. sjá [LEYFI](LICENSE) fyrir frekari upplýsingar.
 
